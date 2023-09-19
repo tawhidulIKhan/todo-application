@@ -1,21 +1,10 @@
-import React, { useEffect } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-// react functional component return type is F
 
-function App(): React.FC {
-	useEffect(() => {
-		getUsers();
-	}, []);
-
-	const getUsers = (): any => {
-		const users = [];
-		console.log(users);
-	};
+function App(): JSX.Element {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<img src={logo} className="App-logo" alt="logo" />
 				<h1>dfsdf</h1>
 				<p>
 					Edit <code>src/App.tsx</code> and save to reload.
